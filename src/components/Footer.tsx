@@ -1,10 +1,9 @@
+import styles from '../styles/components/Footer.module.css'
 
 export default function Footer() {
     return (
-        <>
-            <div className="footer">
-                Curso de Next.Js by Patrick Rhamon
-            </div>
-        </>
+        <footer className={styles.footer}>
+            Curso de Next.Js by Patrick Rhamon
+        </footer>
     )
 }
