@@ -16,6 +16,11 @@ export default function Navibar() {
                 </Link>
             </li>
             <li>
+                <Link href="/contact">
+                    Contatos
+                </Link>
+            </li>
+            <li>
                 <Link href="/about">
                     Sobre
                 </Link>

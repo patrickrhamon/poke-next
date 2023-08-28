@@ -1,4 +1,11 @@
+import { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+    title: 'Poke-Next: Produtos',
+    description: 'A Poke-dex powered by next.js',
+    keywords: 'Produtos, Roupas, Camisas, Calças'
+}
 
 export default function Page() {
     return (
